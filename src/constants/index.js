@@ -13,16 +13,19 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+ bluestock,
+ celebal,
+ coincent,
+ javaIcon,
+  
+  laughboost,
+  skycast,
+  sundown,
+  mobile2,
+  creator2,
+  eera,
+  dashboard,
+  booksnap,
 } from "../assets";
 
 export const navLinks = [
@@ -42,22 +45,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React.js & Next.js Developer",
+    icon: mobile2, 
   },
   {
-    title: "Backend Developer",
+    title: "Backend & API Integrator",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AI & IoT Project Builder",
+    icon: creator2, 
   },
 ];
+
 
 const technologies = [
   {
@@ -96,170 +100,141 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
+
 ];
+
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "SOftware Devloper Intern",
+    company_name: "Bluestock Fintech",
+    icon: bluestock,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2024 – Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analyzed data workflows and improved operational efficiency by 20%.",
+      "Conducted fintech market research and provided strategic insights.",
+      "Assisted in product optimization to improve user adoption.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    {
+    title: "Machine Learning Intern",
+    company_name: "Coincent",
+    icon: coincent, 
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 – July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and trained ML models using Python and real-world datasets.",
+      "Worked on supervised learning algorithms including regression and classification.",
+      "Analyzed model performance and improved accuracy using data preprocessing techniques.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "React.js Intern",
+    company_name: "Celebal Technologies",
+    icon: celebal,
+    iconBg: "#E6DEDD",
+    date: "May 2025",
+    points: [
+      "Built responsive UI components using React.js and Tailwind CSS.",
+      "Integrated REST APIs for dynamic data rendering and user interaction.",
+      "Collaborated with developers in an Agile environment.",
+    ],
+  },
+  {
+    title: "Java Developer Intern",
+    company_name: "Computational Coding with Java Standards",
+    icon: javaIcon, // Add any Java or internship-related icon
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2023 – Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed secure, modular Java applications with encryption.",
+      "Focused on building reusable components and secure API handling.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Book Snap",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A high-performance booking app built with React and Next.js, featuring Stripe payment integration, JWT authentication, and lazy loading for improved speed.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "stripe", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: booksnap,
+ 
   },
   {
-    name: "Job IT",
+    name: "Eera – AI Assistant",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A voice-based AI assistant using JavaScript, Web APIs, and Local Storage. Provides time updates, weather info, jokes, and voice search through speech recognition.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "webspeechapi", color: "green-text-gradient" },
+      { name: "localstorage", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: eera,
+
   },
   {
-    name: "Trip Guide",
+    name: "SkyCast Weather Companion",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A real‑time weather companion app using Node.js, Express, GPS/IP location and OpenWeatherMap API, featuring live and 5‑day forecasts in a clean Tailwind UI.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "node.js", color: "blue-text-gradient" },
+      { name: "express", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: skycast,
+    
   },
+  {
+    name: "Custom Dashboard",
+    description:
+      "A responsive admin dashboard for managing and visualizing user or financial data. Built with React and Chart.js, it supports real-time API updates and clean UI design.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "chartjs", color: "pink-text-gradient" },
+    ],
+    image: dashboard,
+   
+  },
+  {
+  name: "LaughBoost – Dad Jokes Extension",
+  description:
+    "A Chrome extension that displays random dad jokes using the icanhazdadjoke API. Designed with a clean UI and built using HTML, CSS, and JavaScript to deliver a quick laugh with every click.",
+  tags: [
+    { name: "javascript", color: "blue-text-gradient" },
+    { name: "chrome-extension", color: "green-text-gradient" },
+    { name: "api", color: "pink-text-gradient" },
+  ],
+  image: laughboost, // add screenshot in assets
+
+},
+{
+  name: "Sundown Animated Replica",
+  description:
+    "A fully responsive and animated replica of the Sundown Studio website. Created using GSAP, React, and smooth scroll libraries to mimic real-time scroll effects and page transitions.",
+  tags: [
+    { name: "react", color: "blue-text-gradient" },
+    { name: "gsap", color: "green-text-gradient" },
+    { name: "scrolltrigger", color: "pink-text-gradient" },
+  ],
+  image: sundown,
+
+}
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+export { services, technologies, experiences, projects };
