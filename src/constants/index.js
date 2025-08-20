@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   mobile,
   backend,
@@ -122,6 +123,7 @@ const experiences = [
       "Conducted fintech market research and provided strategic insights.",
       "Assisted in product optimization to improve user adoption.",
     ],
+  
   },
     {
     title: "Machine Learning Intern",
@@ -134,6 +136,7 @@ const experiences = [
       "Worked on supervised learning algorithms including regression and classification.",
       "Analyzed model performance and improved accuracy using data preprocessing techniques.",
     ],
+    
   },
   {
     title: "React.js Intern",
@@ -172,7 +175,7 @@ const projects = [
       { name: "stripe", color: "pink-text-gradient" },
     ],
     image: booksnap,
- 
+    
   },
   {
     name: "Eera – AI Assistant",
@@ -184,7 +187,7 @@ const projects = [
       { name: "localstorage", color: "pink-text-gradient" },
     ],
     image: eera,
-
+   source_code_link:"https://github.com/riasharma17/Eera.git",
   },
   {
     name: "SkyCast Weather Companion",
@@ -196,30 +199,31 @@ const projects = [
       { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: skycast,
-    
+   source_code_link: "https://github.com/riasharma17/SkyCast--Your-Personal-Weather-Companion.git"
   },
   {
     name: "Custom Dashboard",
     description:
       "A responsive admin dashboard for managing and visualizing user or financial data. Built with React and Chart.js, it supports real-time API updates and clean UI design.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "tailwind", color: "green-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Tailwind", color: "green-text-gradient" },
       { name: "chartjs", color: "pink-text-gradient" },
     ],
     image: dashboard,
-   
+   source_code_link:"https://github.com/riasharma17/Custom-Dashboard.git"
   },
   {
-  name: "LaughBoost – Dad Jokes Extension",
+  name: "Spotify-Clone",
   description:
-    "A Chrome extension that displays random dad jokes using the icanhazdadjoke API. Designed with a clean UI and built using HTML, CSS, and JavaScript to deliver a quick laugh with every click.",
+    "A full-stack music streaming application inspired by Spotify, built to demonstrate skills in modern web development, authentication, and integration with APIs.",
   tags: [
-    { name: "javascript", color: "blue-text-gradient" },
-    { name: "chrome-extension", color: "green-text-gradient" },
+    { name: "React", color: "blue-text-gradient" },
+    { name: "Tailwind", color: "green-text-gradient" },
     { name: "api", color: "pink-text-gradient" },
   ],
   image: laughboost, // add screenshot in assets
+ source_code_link:"https://github.com/riasharma17/react-spotify-clone.git",
 
 },
 {
@@ -232,7 +236,7 @@ const projects = [
     { name: "scrolltrigger", color: "pink-text-gradient" },
   ],
   image: sundown,
-
+source_code_link:"https://github.com/riasharma17/Sundown.git",
 }
 ];
 
